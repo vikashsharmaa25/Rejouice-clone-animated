@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Rejouice Headline;
+}
+
+hr {
+  height: 1px;
+  background-color: #0b0a0a;
+  border: none;
+}
