@@ -10,6 +10,9 @@ import SecondrySection from "./components/SecondrySection";
 import Models from "./components/Models";
 import Card from "./components/Card";
 import Partner from "./components/Partner";
+import Rgb from "./components/Rgb";
+import GetInTouch from "./components/GetInTouch";
+import About from "./components/About";
 
 const App = () => {
   const containerRef = React.useRef(null);
@@ -35,6 +38,10 @@ const App = () => {
           <Models />
           <Card />
           <Partner />
+          <Rgb />
+          <Partner />
+          <GetInTouch />
+          <About />
         </div>
       </AnimatePresence>
     </LocomotiveScrollProvider>

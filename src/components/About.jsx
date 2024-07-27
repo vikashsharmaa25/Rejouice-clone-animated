@@ -2,8 +2,8 @@ import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
-export default function Models() {
-  const phrase = `Explore our services<br/>and engagement models`;
+export default function About() {
+  const phrase = `About us`;
 
   const lines = phrase.split("<br/>");
 
@@ -35,7 +35,7 @@ export default function Models() {
             {line.split(" ").map((word, index) => (
               <div key={index} className="mr-2 mb-2 overflow-hidden">
                 <motion.div
-                  className="text-[9vmin] font-sans leading-tight tracking-tight"
+                  className="text-[9vmin] font-sans leading-tight tracking-tight underline underline-offset-4"
                   variants={slideUp}
                   custom={index}
                   initial="initial"

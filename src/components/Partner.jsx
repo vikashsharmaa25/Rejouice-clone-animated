@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 export default function Partner() {
   const phrase =
-    "We partner with up to 5 clients each year. his allows intense focus on the transformation nd launch of your brand by our very best team, nich is the only team we have. We specialize in orking with startups that are revolutionizing eir industries.";
+    "          We partner with up to 5 clients each year. his allows intense focus on the transformation nd launch of your brand by our very best team, nich is the only team we have. We specialize in working with startups that are revolutionizing heir industries.";
 
   const words = phrase.split(" ");
 
@@ -56,7 +56,7 @@ export default function Partner() {
         {words.map((word, index) => (
           <div key={index} className="mr-2 mb-2 overflow-hidden">
             <motion.div
-              className="text-[7vmin] font-light leading-tight"
+              className="text-[9vmin] font-normal font-sans leading-tight tracking-tight"
               variants={slideUp}
               custom={index}
               initial="initial"
